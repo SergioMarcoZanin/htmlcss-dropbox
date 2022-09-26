@@ -13,6 +13,11 @@ body{
 
 /* COMMONS */
 
+button{
+   padding: 10px 20px 10px 20px;
+   border: none;
+}
+
 /* HEADER */
 header{
     background-color: white;
@@ -26,10 +31,7 @@ header .row {
     padding: 0 10px;
 }
 .row{
-    display: flex;
-    
-    
-   
+    display: flex; 
 }
 .logo{
     display: block;
@@ -44,10 +46,7 @@ header .row {
     display: flex;
     padding: 10px;
     align-items: center;
-    
-    
 }
-
 .right-nav{
     width: 50%;
     align-items: center;
@@ -57,6 +56,10 @@ header .row {
 }
 li{
     padding: 40px;
+}
+.start{
+    background-color: #0061FF;
+    color: white;
 }
 
 
