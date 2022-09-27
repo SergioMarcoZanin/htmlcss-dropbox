@@ -206,3 +206,17 @@ ul{
     border: 1px solid;
     margin-top: 15px;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.schede{
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+}
+.img-schede img{
+    width: 100%;
+}
+.title-schede{
+    margin-bottom: 20px;
+}
