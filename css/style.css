@@ -25,6 +25,7 @@ button{
     font-size: 16px;
 }
 
+
 /* HEADER */
 header{
     background-color: white;
@@ -105,6 +106,7 @@ li{
 .container-main{
     max-width: 1000px;
     margin: auto;
+    
 }
 .h2-sub{
     font-size: 35px;
@@ -132,7 +134,7 @@ li{
     width: calc(100%/3 - 30px);
     border: 1px solid;
 }
-.title-col{
+.title-little{
     text-align: center;
     padding: 15px;
     border-bottom: 1px solid;
@@ -167,3 +169,21 @@ ul{
     list-style-type: none;
     text-align: left;
 }
+.team{
+    border: 1px solid;
+    margin: 50px 0px 50px 0px;
+}
+.row-title{
+    width: 100%;
+}
+
+.col-big{
+    width: 60%;
+}
+.col-small{
+    width: 40%;
+}
+.row-content{
+    display: flex;
+}
+
