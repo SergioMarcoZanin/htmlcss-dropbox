@@ -67,8 +67,8 @@ header{
     
    
 }
-li{
-    padding: 20px;
+.link-header{
+    padding: 10px;
 }
 .start{
     background-color: #0061FF;
@@ -112,7 +112,7 @@ li{
     font-size: 50px;
     margin-top: 65px;
 }
-
+/* COLONNE PLAN */
 .container-main{
     max-width: 1000px;
     margin: auto;
@@ -126,6 +126,7 @@ li{
     margin-bottom: 35px;
     margin-top: 45px;
 }
+
 .row-sub{
     display: flex;
 }
@@ -151,6 +152,7 @@ li{
 .container-col{
     max-width: 245px;
     margin: auto;
+    padding-bottom: 50px;
     
 }
 .title-price{
@@ -177,6 +179,7 @@ i{
 ul{
     list-style-type: none;
 }
+/* COLONNA TEAM */
 .team{
     border: 1px solid;
     margin: 50px 0px 50px 0px;
