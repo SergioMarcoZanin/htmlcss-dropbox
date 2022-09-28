@@ -121,7 +121,6 @@ li{
     width: calc(100%/3 - 30px);
     border: 1px solid;
     margin-right: 45px;
-    
 }
 .col2-sub{
     width: calc(100%/3 - 30px);
@@ -140,6 +139,7 @@ li{
 .container-col{
     max-width: 245px;
     margin: auto;
+    
 }
 .title-price{
     margin: 30px 0px 30px 0px;
@@ -154,8 +154,7 @@ hr{
 li{
     padding-top: 10px;
     align-items: baseline;
-    display: flex;
-    
+    display: flex; 
 }
 .fa-check{
     color:#0061FF;
@@ -165,7 +164,6 @@ i{
 }
 ul{
     list-style-type: none;
-    text-align: left;
 }
 .team{
     border: 1px solid;
