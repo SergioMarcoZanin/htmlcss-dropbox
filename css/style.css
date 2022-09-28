@@ -1,4 +1,6 @@
-/* reset */
+/*---------
+    RESET
+ ----------*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,12 +8,16 @@
 }
 
 
-/* TYPO */
+/*---------
+    TYPO
+ ----------*/
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* COMMONS */
+/*---------
+    COMMONS
+ ----------*/
 
 button{
    padding: 10px 20px 10px 20px;
@@ -26,17 +32,16 @@ button{
 }
 
 
-/* HEADER */
+/*---------
+    HEADER
+ ----------*/
 header{
     background-color: white;
 }
-header .row {
-    height: 100%;
-    align-items: center;
-    padding: 0 10px;
-}
+
 .row{
     display: flex; 
+    padding: 10px; 
 }
 .logo{
     display: block;
@@ -44,20 +49,23 @@ header .row {
 .list-inline{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .left-nav{
     width: 50%;   
     display: flex;
-    padding: 10px;
     align-items: center;
+    
+    
 }
 .right-nav{
     width: 50%;
-    align-items: center;
     display: flex;
     justify-content: end;
-    padding: 10px;
+    
+    
+   
 }
 li{
     padding: 20px;
@@ -66,11 +74,14 @@ li{
     background-color: #0061FF;
     color: white;
 }
-/* MAIN */
+/*---------
+    MAIN
+ ----------*/
 .hero{
     
     background-color: #B4D0E7;
     margin-bottom: 160px;
+    position: relative;
 }
 .container-hero{
     max-width: 1200px;
@@ -95,6 +106,7 @@ li{
 .hero-immagine{
   width: 800px;
   height: auto;
+  position: absolute;
 }
 .fa-arrow-down{
     font-size: 50px;
@@ -218,3 +230,4 @@ ul{
 .title-schede{
     margin-bottom: 20px;
 }
+
