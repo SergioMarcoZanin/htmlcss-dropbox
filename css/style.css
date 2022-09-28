@@ -312,3 +312,55 @@ ul{
     padding-right: 40px;
     padding-left: 40px;
 }
+/* SEZIONE DOMANDE */
+.domande{
+    padding-top: 150px;
+    font-weight: 700;
+}
+.domande h2{
+    padding: 0 0 50px;
+}
+.domande ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 150px;
+}
+.domande ul li{
+    padding: 40px 40px 40px 0 ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #233242;
+}
+.domande ul li:last-child{
+    border-bottom: 1px solid #233242;
+}
+/* FOOTER */
+footer{
+    background-color: black;
+}
+.container-footer{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+.col-footer{
+    width: calc(100% / 5 );
+    color: white;
+    padding-top: 100px;
+}
+.col-footer li{
+    padding: 10px;
+}
+.col-footer hr{
+    margin-top: 100px;
+    width: 100px;
+    margin-bottom: 50px;
+}
+.lingua{
+    padding: 40px 0;
+    color: #999999;
+}
+.fa-caret-up{
+    padding: 5px;
+}
