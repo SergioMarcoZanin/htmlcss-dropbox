@@ -223,8 +223,8 @@ ul{
     flex-wrap: wrap;
 }
 .schede{
-    width: calc(100% / 3 - 30px);
-    margin: 15px;
+    width: calc(100% / 3 - 20px);
+    margin: 20px 20px 20px 0px;
 }
 .img-schede img{
     width: 100%;
