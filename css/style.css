@@ -161,7 +161,7 @@ header{
 .duration{
     margin: 15px 0px 60px 0px ;
 }
-hr{
+.hr1{
     margin: 40px 0px 40px 0px;
     width: 45px;
 }
@@ -233,4 +233,58 @@ ul{
 .title-schede{
     margin-bottom: 20px;
 }
+/* SEZIONE AMICI */
+.amici{
+    display: flex;
+    
+}
+.amico-col{
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.amico-col.centro{
+    width: calc(100% - 60vw);
+    overflow-y: auto;
+}
+.amico{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.amico img{
+    width: 60%;
+    filter: invert(1);
+}
+.designit{
+    background-color: #A2D39B;
+}
+.arizona{
+    background-color: #61082B;
+}
+.florida{
+    background-color: #0093CE;
+}
+.topps{
+    background-color: #FF1C1C;
+}
+.wbr{
+    background-color: #D5001F;
+}
+.hearts{
+    background-color: #B4D0E7;
+}
+.lonely{
+    background-color: #0D2481;
+}
+.clear{
+    background-color: #FFD830;
+}
 
+.hr-amico{
+    
+}
