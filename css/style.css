@@ -78,7 +78,6 @@ header{
     MAIN
  ----------*/
 .hero{
-    
     background-color: #B4D0E7;
     margin-bottom: 160px;
     position: relative;
@@ -285,6 +284,31 @@ ul{
     background-color: #FFD830;
 }
 
-.hr-amico{
-    
+.amico-col p{
+    padding: 2vw;
+}
+.centro img{
+    padding: 2vw;
+    width: 50%;
+    position: relative;
+}
+.autore{
+    padding: 2vw;
+}
+.azzurro{
+    background-color: #B4D0E7;
+}
+.prova{
+    display: flex;
+    padding: 80px;
+    text-align: end;
+}
+.col-big h3{
+    font-size: 30px;
+    text-align: start;
+    color: #640D2B;
+}
+.btn-prova{
+    padding-right: 40px;
+    padding-left: 40px;
 }
