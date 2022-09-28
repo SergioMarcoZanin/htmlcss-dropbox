@@ -232,6 +232,15 @@ ul{
 .title-schede{
     margin-bottom: 20px;
 }
+/* SEZIONE BUSINESS BIANCA */
+.dropbox-business{
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+.business{
+    display: flex;
+    margin-bottom: 150px;
+}
 /* SEZIONE AMICI */
 .amici{
     display: flex;
@@ -303,7 +312,7 @@ ul{
     padding: 80px;
     text-align: end;
 }
-.col-big h3{
+.titolo-rosso{
     font-size: 30px;
     text-align: start;
     color: #640D2B;
