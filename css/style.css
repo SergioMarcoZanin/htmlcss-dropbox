@@ -344,6 +344,8 @@ ul{
 /* SEZIONE DOMANDE */
 .domande{
     padding-top: 150px;
+}
+.domanda{
     font-weight: 700;
 }
 .domande h2{
@@ -351,11 +353,10 @@ ul{
 }
 .domande ul {
     list-style: none;
-    padding: 0;
     margin-bottom: 150px;
 }
 .domande ul li{
-    padding: 40px 40px 40px 0 ;
+    padding: 40px 40px 40px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -364,6 +365,22 @@ ul{
 .domande ul li:last-child{
     border-bottom: 1px solid #233242;
 }
+.domande li:hover .hover-domande{
+    display: block;
+    
+}
+
+.hover-domande{
+    display: none;
+    margin-top: 30px; 
+}
+.domande i:hover {
+    cursor: pointer;
+}
+.domande li:hover .domanda{
+    cursor: pointer;
+}
+
 /* FOOTER */
 footer{
     background-color: black;
