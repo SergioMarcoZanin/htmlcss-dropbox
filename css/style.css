@@ -102,23 +102,24 @@ header{
     font-size: 50px;
     margin-top: 65px;
 }
-/* COLONNE PLAN */
+
 .container-main{
     max-width: 1000px;
-    margin: auto;
-    
+    margin: auto; 
 }
 .h2-sub{
     font-size: 35px;
+    margin-bottom: 40px;
 }
-.btn-radio{
-    color: black;
-    margin-bottom: 35px;
-    margin-top: 45px;
+.plan label{
+    padding-right: 30px;
+    margin-bottom: 25px;
 }
 
+/* COLONNE PLAN */
 .row-sub{
     display: flex;
+    margin-top: 50px;
 }
 .col1-sub{
     width: calc(100%/3 - 30px);
@@ -142,8 +143,7 @@ header{
 .container-col{
     max-width: 245px;
     margin: auto;
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px;  
 }
 .title-price{
     margin: 30px 0px 30px 0px;
@@ -168,6 +168,17 @@ i{
 }
 ul{
     list-style-type: none;
+}
+.btn-plan{
+    text-align: center;
+}
+.btn-blue.try{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn-blue.contact{
+    padding-left: 70px;
+    padding-right: 70px;
 }
 /* COLONNA TEAM */
 .team{

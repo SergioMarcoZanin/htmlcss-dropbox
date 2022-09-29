@@ -64,14 +64,16 @@
             </div>
             <!-- fine hero -->
         </div>
-        <section class="container-main">
+        <section class="container-main plan">
             <div>
                 <h2 class="h2-sub">Trova il piano di business che fa per te</h2>
             </div>
-            <div class="btn-radio">
-                <input type="radio" id="Fatturazione-Mensile" >Fatturazione Mensile
-                <input type="radio" id="Fatturazione-Annuale" >Fatturazione Annuale
-            </div>
+                <!-- input fatturazione -->
+                <input type="radio" name="fatturazione" id="fatturazione-mensile" value="Fatturazione-mensile">
+                <label for="fatturazione-mensile">Fatturazione mensile</label>
+                <input type="radio" name="fatturazione" id="fatturazione-annuale" value="Fatturazione-annuale">
+                <label for="fatturazione-annuale">Fatturazione annuale</label>
+                <!-- fine input fatturazione -->
             <div class="row-sub">
                 <!-- prima colonna -->
                 <div class="col1-sub">
@@ -99,8 +101,10 @@
                                     <div>Funzioni di produttivita premium e condivisione file semplice e sicura</div>
                                 </li>
                             </ul>
-                        <button class="btn-blue" >Prova Gratis per 30 giorni</button>
-                        <div>oppure <a href="">acquista ora</a> </div>
+                            <div class="btn-plan">
+                                <button class="btn-blue try">Prova Gratis per 30 giorni</button>
+                            </div>
+                        <div>oppure<a href="">acquista ora</a></div>
                         <hr class="hr1">
                         <div>
                             <h4>Punti Salienti del piano</h4>
@@ -144,7 +148,9 @@
                                     <div>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</div>
                                 </li>
                             </ul>
-                        <button class="btn-blue" >Prova Gratis per 30 giorni</button>
+                            <div class="btn-plan">
+                                <button class="btn-blue try" >Prova Gratis per 30 giorni</button>
+                            </div>
                         <div>oppure <a href="">acquista ora</a> </div>
                         <hr class="hr1">
                         <div>
@@ -201,7 +207,9 @@
                                     <div>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</div>
                                 </li>
                             </ul>
-                        <button class="btn-blue" >Contattaci</button>
+                            <div class="btn-plan">
+                                <button class="btn-blue contact" >Contattaci</button>
+                            </div>
                         <div>oppure <a href="">acquista ora</a> </div>
                         <hr class="hr1">
                         <div>
