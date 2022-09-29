@@ -22,6 +22,7 @@ body{
 button{
    padding: 10px 20px 10px 20px;
    border: none;
+   cursor: pointer;
 }
 
 .btn-blue{
@@ -213,8 +214,8 @@ ul{
 .col-small.sales{
     text-align: end;
 }
-/* SEZIONE TROVA UN PARTNER */
-.partner{
+/* SEZIONE TROVA UN TROVA */
+.trova{
     display: flex;
     margin-top: 140px;
     margin-bottom: 140px;
@@ -224,14 +225,14 @@ ul{
     height: 100%;
     object-fit: contain;
 }
-.content-partner{
+.content-trova{
     padding: 40px;
 }
-.title-partner{
+.title-trova{
     font-size: 25px;
     margin-bottom: 10px;
 }
-.btn-partner{
+.btn-trova{
     background-color: white;
     color: black;
     border: 1px solid;
@@ -261,21 +262,21 @@ ul{
     margin-bottom: 150px;
 }
 /* SEZIONE AMICI */
-.amici{
+.partners{
     display: flex;
     
 }
-.amico-col{
+.partner-col{
     width: 30vw;
     height: 30vw;
     display: flex;
     flex-wrap: wrap; 
 }
-.amico-col.centro{
+.partner-col.centro{
     width: calc(100% - 60vw);
     overflow-y: auto;
 }
-.amico{
+.partner{
     width: 50%;
     height: 50%;
     display: flex;
@@ -283,7 +284,7 @@ ul{
     align-items: center;
     
 }
-.amico img{
+.partner img{
     width: 60%;
     filter: invert(1);
 }
