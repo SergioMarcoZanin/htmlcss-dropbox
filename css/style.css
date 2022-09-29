@@ -185,16 +185,33 @@ ul{
 }
 .row-title{
     width: 100%;
+    
 }
 .col-big{
     width: 60%;
+    padding: 30px;
 }
 .col-small{
     width: 40%;
+    
+    padding-right: 25px;
 }
 .row-content{
     display: flex;
 }
+.col-big h3{
+    padding-bottom: 15px;
+}
+.col-big h4{
+    padding-bottom: 30px;
+}
+.btn-blue.office{
+    padding: 10px 40px 10px 40px;
+}
+.col-small.sales{
+    text-align: end;
+}
+/* SEZIONE TROVA UN PARTNER */
 .partner{
     display: flex;
     margin-top: 140px;
