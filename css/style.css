@@ -124,22 +124,22 @@ header{
 }
 .col1-sub{
     width: calc(100%/3 - 30px);
-    border: 1px solid;
+    border: 1px solid lightgrey;
     margin-right: 45px;
 }
 .col2-sub{
     width: calc(100%/3 - 30px);
-    border: 1px solid;
+    border: 1px solid lightgrey;
     margin-right: 45px;
 }
 .col3-sub{
     width: calc(100%/3 - 30px);
-    border: 1px solid;
+    border: 1px solid lightgrey;
 }
 .title-little{
     text-align: center;
     padding: 15px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid lightgrey;
 }
 .container-col{
     max-width: 245px;
@@ -183,7 +183,7 @@ ul{
 }
 /* COLONNA TEAM */
 .team{
-    border: 1px solid;
+    border: 1px solid lightgrey;
     margin: 50px 0px 50px 0px;
 }
 .row-title{
