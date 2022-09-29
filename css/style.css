@@ -31,7 +31,6 @@ button{
     font-size: 16px;
 }
 
-
 /*---------
     HEADER
  ----------*/
@@ -42,10 +41,9 @@ header{
 .row{
     display: flex; 
     padding: 10px; 
+    justify-content: space-between;
 }
-.logo{
-    display: block;
-}
+
 .list-inline{
     display: flex;
     list-style: none;
@@ -53,19 +51,12 @@ header{
 }
 
 .left-nav{
-    width: 50%;   
     display: flex;
     align-items: center;
-    
-    
 }
 .right-nav{
-    width: 50%;
     display: flex;
-    justify-content: end;
-    
-    
-   
+    justify-content: end; 
 }
 .link-header{
     padding: 10px;
